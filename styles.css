@@ -1,15 +1,24 @@
 .heading {
-	background-color: #BFA4A4;
+  font-family: 'Quintessential', cursive;
+  font-size: 40px;
+  width: 100%;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
+.heading a {
+  font-size: 100px;
 }
 
 ul {
   list-style-type: none;
   width: 100%;
-  background-color: #AA9ABA;
+  background-color: #D8BFD8;
   margin: 0;
   padding: 0;
-  position: fixed;
+  top: 0;
+  left: 0;
   text-align: center;
+  position: fixed;
   overflow: hidden;
 }
 
@@ -19,6 +28,7 @@ li {
 }
 
 li a {
+  font-family: 'Courgette', serif;
   display: inline-block;
   color: #FFFAF0;
   text-decoration: none;
@@ -26,5 +36,21 @@ li a {
 }
 
 li a:hover {
-  background-color: #E3B9BC;
+  background-color: #8783D1;
+}
+
+.home-paragraph {
+  font-size: 24px;
+	padding-top: 80px;
+	text-align: center;
+  font-family: 'Quintessential', serif;
+}
+
+.services-list{
+  font-size: 24px;
+  font-family: 'Quintessential', serif;
+}
+
+.contact-us-background{
+  padding: 50px;
 }

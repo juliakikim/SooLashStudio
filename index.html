@@ -1,21 +1,94 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
   <title>SooLash Studio</title>
   <meta charset='utf-8'>
   <link rel="stylesheet" type="text/css" href="styles.css">
-</header>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette|Quintessential">
+</head>
+
 <body>
-  <div class="heading">
-    <center><image src="interface/logo.png"></image></center>
-  </div>
   <div class="navigation">
     <ul>
-    <li><a>Home</a></li>
-    <li><a>Photo Gallery</a></li>
-    <li><a>Services&Prices</a></li>
-    <li><a>Location/Contact Us</a></li>
-  </ul>
-</div>
+    <li><a href="#home" class="smoothScroll">Home</a></li>
+    <li><a href="#gallery" class="smoothScroll">Photo Gallery</a></li>
+    <li><a href="#services" class="smoothScroll">Services & Prices</a></li>
+    <li><a href="#contact-us" class="smoothScroll">Location & Contact Us</a></li>
+    </ul>
+  </div>
+  <br />
+  <br />
+  <div class="heading">
+    <center><a>SooLash Studio</a></center>
+  </div>
+
+  <section id="home">
+    <div class="home-background">
+      <div class="home-paragraph">
+        <p>Welcome to SooLash Studio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="gallery-background">
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="services-background">
+      <div class="services-list">
+        <center>EyeLash Extension Prices</center>
+        <br />
+        <center><table width="85%">
+          <tr align="left">
+            <th>Silk & Mink Full Set</th>
+            <th>$200</th>
+            <th width=20px></th>
+            <th>Luxury Real Mink Full Set</th>
+            <th>$300</th>
+          </tr>
+          <tr align="left">
+            <td>1 Week Refill</td>
+            <td>$35</td>
+            <td></td>
+            <td>1 Week Refill</td>
+            <td>$55</td>
+          </tr>
+          <tr align="left">
+            <td>2 Week Refill</td>
+            <td>$65</td>
+            <td></td>
+            <td>2 Week Refill</td>
+            <td>$85</td>
+          </tr>
+          <tr align="left">
+            <td>3 Week Refill</td>
+            <td>$95</td>
+            <td></td>
+            <td>3 Week Refill</td>
+            <td>$115</td>
+          </tr>
+          <tr align="left">
+            <td>4 Week Refill</td>
+            <td>$125</td>
+            <td></td>
+            <td>4 Week Refill</td>
+            <td>$145</td>
+          </tr>
+        </table><center>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-us">
+    <div class="contact-us-background">
+      <center><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">Embed your Google Map here!</a></small></div><div><small><a href="https://binaireoptieservaringen.nl/">Meer informatie over binaire opties in Nederland vind je hier!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(38.82908700000001,-77.19885579999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.82908700000001,-77.19885579999999)});infowindow = new google.maps.InfoWindow({content:'<strong>SooLash Studio</strong><br>7310 McWhorter Pl #D  Annandale Virginia 22003 United States of America<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></center>
+    </div>
+  </section>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+
 </body>
 </html>
