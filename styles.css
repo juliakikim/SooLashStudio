@@ -1,12 +1,10 @@
-.heading {
+.home-title {
   font-family: 'Quintessential', cursive;
-  font-size: 40px;
   width: 100%;
-  text-shadow: 2px 2px 2px #aaa;
-}
-
-.heading a {
   font-size: 100px;
+  padding-top: 80px;
+  text-shadow: 2px 2px 2px #aaa;
+  text-align: center;
 }
 
 ul {
@@ -39,18 +37,73 @@ li a:hover {
   background-color: #8783D1;
 }
 
+.home-background {
+  background-color: #E6E6FA;
+  padding: 50px 0;
+}
+
+.rating_img{
+  padding: 30px;
+  text-align: center;
+}
+
 .home-paragraph {
   font-size: 24px;
-	padding-top: 80px;
-	text-align: center;
+  text-align: center;
   font-family: 'Quintessential', serif;
+}
+
+.gallery-background {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.gallery-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
+}
+
+.demo_img {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+}
+
+.services-background{
+  background-color: #FFF0F5;
+  padding: 50px 0;
+}
+
+.services-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
 }
 
 .services-list{
+  vertical-align: middle;
   font-size: 24px;
   font-family: 'Quintessential', serif;
 }
 
+.services-list a{
+  text-align: center
+}
+
 .contact-us-background{
-  padding: 50px;
+  background-color: #FFE4E1;
+  padding: 50px 0;
+}
+
+.contact-us-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
 }
