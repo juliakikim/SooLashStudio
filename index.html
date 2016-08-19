@@ -10,6 +10,22 @@
 
 <body>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <!-- Loading jQuery before other libraries. -->
+  <script src="jquery.js"></script>
+  <script src="prototype.js"></script>
+  <script>
+
+  // Use full jQuery function name to reference jQuery.
+  jQuery( document ).ready(function() {
+    jQuery( "div" ).hide();
+  });
+
+  // Use the $ variable as defined in prototype.js
+  window.onload = function() {
+    var mainDiv = $( "main" );
+  };
+
+</script>
   <div class="navigation">
     <ul>
     <li><a href="#home" class="smoothScroll">Home</a></li>
@@ -150,7 +166,7 @@
         <div class="contact-us-map-title">
           Maps and Directions
         </div>
-      <!--<center><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(38.82908700000001,-77.19885579999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.82908700000001,-77.19885579999999)});infowindow = new google.maps.InfoWindow({content:'<strong>SooLash Studio</strong><br>7310 McWhorter Pl #D  Annandale Virginia 22003 United States of America<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></center>-->
+      <center><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(38.82908700000001,-77.19885579999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.82908700000001,-77.19885579999999)});infowindow = new google.maps.InfoWindow({content:'<strong>SooLash Studio</strong><br>7310 McWhorter Pl #D  Annandale Virginia 22003 United States of America<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></center>
     </div>
     </div>
   </section>
