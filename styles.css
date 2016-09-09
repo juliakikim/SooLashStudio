@@ -1,5 +1,5 @@
 .home-title {
-  font-family: 'Neuton', cursive;
+  font-family: 'Quintessential', cursive;
   font-size: 100px;
   padding-top: 80px;
   text-shadow: 2px 2px 2px #aaa;
@@ -25,7 +25,7 @@ li {
 }
 
 li a {
-  font-family: 'Neuton', serif;
+  font-family: 'Courgette', serif;
   display: inline-block;
   color: #FFFAF0;
   text-decoration: none;
@@ -44,37 +44,82 @@ li a:hover {
 .welcome-paragraph {
   font-size: 24px;
   text-align: center;
-  font-family: 'Neuton', serif;
+  font-family: 'Quintessential', serif;
 }
 
-.resume-background {
+.gallery-background {
   padding: 50px 30px;
   text-align: center;
 }
 
-.resume-title{
-  font-family: 'Neuton', cursive;
+.gallery-title{
+  font-family: 'Quintessential', cursive;
   text-align: center;
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
   padding-bottom: 30px;
 }
 
-.contact-background{
+.demo_img img {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+}
+
+.services-background{
+  background-color: #FFF0F5;
+  padding: 50px 0;
+}
+
+.services-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
+}
+
+.services-list-1{
+  font-size: 24px;
+  font-family: 'Quintessential', serif;
+}
+ 
+.services-list-2{
+  padding-top: 15px;
+  font-size: 18px;
+  font-family: 'Quintessential', serif;
+}
+
+.services-list a{
+  text-align: center
+}
+
+.contact-us-background{
   background-color: #FFE4E1;
   padding: 50px 0;
 }
 
-.contact-paragraph th {
+.contact-us-paragraph th {
   padding: 0 100px;
 }
 
-.contact-title{
-  font-family: 'Neuton', cursive;
+.contact-us-map-title {
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 24px;
+  padding: 30px 0;
+}
+
+.contact-us-title{
+  font-family: 'Quintessential', cursive;
   text-align: center;
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
   padding-bottom: 30px;
+}
+
+.contact-us-map{
+width: 100%;
 }
 
 /* smaller screen */
