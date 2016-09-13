@@ -122,11 +122,6 @@ li a:hover {
   width: 100%;
 }
 
-#map{
-  height: 100%;
-  width: 100%;
-}
-
 /* smaller screen */
 @media screen and (max-width : 730px) {
 
