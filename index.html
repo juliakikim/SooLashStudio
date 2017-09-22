@@ -1,167 +1,196 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>SooLash Studio</title>
-  <meta charset='utf-8'>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette|Quintessential">
-  <base href="http://soolashstudio.com/" target="_blank">
-</head>
-
-<body>
-  <div class="navigation">
-    <ul>
-    <li><a href="#home" class="smoothScroll">Home</a></li>
-    <li><a href="#welcome" class="smoothScroll">Welcome</a></li>
-    <li><a href="#gallery" class="smoothScroll">Photo Gallery</a></li>
-    <li><a href="#services" class="smoothScroll">Services & Prices</a></li>
-    <li><a href="#contact-us" class="smoothScroll">Location & Contact Us</a></li>
-    </ul>
-  </div>
-
-  <section id="home">
-    <div class="home-title">
-    SooLash Studio
-    </div>
-  </section>
-
-  <section id="welcome">
-    <div class="welcome-background">
-    <div class="welcome-paragraph">
-        <p>Welcome to SooLash Studio. Thank you for visiting. Please refer to different tabs for more information.<br />
-        Appointments are required, so please contact us for making an appointment.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery">
-    <div class="gallery-background">
-      <div class="gallery-title">
-        Photo Gallery
-      </div>
-      <div class="demo_img">
-        <img src="image\Demonstration_30.jpg" width="300" height="200">
-        <img src="image\Demonstration_32.jpg" width="300" height="200">
-      </div>
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="services-background">
-      <div class="services-title">
-      EyeLash Extension Prices
-      </div>
-      <div class="services-list-1">
-        <table align="center">
-          <tr align="left">
-            <th>Silk & Mink Full Set &nbsp; &nbsp; &nbsp; &nbsp;</th>
-            <th>$250</th>
-            <th width=20px></th>
-            <th>Luxury Real Mink Full Set &nbsp; &nbsp; &nbsp; &nbsp;</th>
-            <th>$350</th>
-          </tr>
-          <tr align="left">
-            <td>1 Week Refill</td>
-            <td>$35</td>
-            <td></td>
-            <td>1 Week Refill</td>
-            <td>$55</td>
-          </tr>
-          <tr align="left">
-            <td>2 Week Refill</td>
-            <td>$65</td>
-            <td></td>
-            <td>2 Week Refill</td>
-            <td>$95</td>
-          </tr>
-          <tr align="left">
-            <td>3 Week Refill</td>
-            <td>$95</td>
-            <td></td>
-            <td>3 Week Refill</td>
-            <td>$135</td>
-          </tr>
-          <tr align="left">
-            <td>4 Week Refill</td>
-            <td>$125</td>
-            <td></td>
-            <td>4 Week Refill</td>
-            <td>$175</td>
-          </tr>
-        </table>
-      </div>
-        <div class="services-list-2">
-        <table align="center">
-         <tr align="left">
-            <td>Lash Removal &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
-            <td>$20 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-            <td>1 Week: Within 7 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-          </tr>
-           <tr align="left">
-            <td>4D Volume Lash</td>
-            <td>$50</td>
-            <td>2 Week: Within 14 Days</td>
-          </tr>
-          <tr align="left">
-            <td>Coating Mascara</td>
-            <td>$10</td>
-            <td>3 Week: Within 21 Days</td>
-          </tr>
-          <tr align="left">
-            <td></td>
-            <td></td>
-            <td>4 Week: Within 28 Days</td>
-          </tr>
-          </table>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact-us">
-    <div class="contact-us-background">
-      <div class="contact-us-title">
-        Location
-      </div>
-      <div class="contact-us-paragraph">
-        <table align="center">
-          <tr align="center">
-            <th>Address:</th>
-            <th>Hours of operation:</th>
-            <th>Contact us:</th>
-          </tr>
-          <tr align="center"> 
-            <td>7310 McWhorter Pl #D</td>
-            <td>10AM - 7PM on Monday-Saturday</td>
-            <td>Phone: 202-997-4494</td>
-          </tr>
-          <tr align="center">
-            <td>Annandale, Virginia 22003 USA</td>
-            <td>Closed on Sunday</td>
-            <td>Email address: soolashstudio@gmail.com</td>
-          </tr>
-        </table>
-      </div>
-      <div class="contact-us-map">
-        <div class="contact-us-map-title">
-          Maps and Directions</div>
-        <div id="map" style="width: 50%; height: 50%; position: absolute; margin-left: 25%;">
-          <script>
-            var map;
-            function initMap() {
-              map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: 38.829087, lng: -77.198855},
-                zoom: 20
-              });
-            }
-          </script>
-         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE5el4WZDP4HD-qfUfotmVARjSQ01KXQo&callback=initMap"
-          async defer></script>
-    </div>
-  </div>
-  </section>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="smoothscroll.js"></script>
-</body>
+    <head>
+        <title>SooLash Studio</title>
+        <meta charset='utf-8'>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="styles.css">
+                <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette|Quintessential">
+                    <base href="http://soolashstudio.com/" target="_blank">
+                        </head>
+    
+    <body>
+        <div class="navigation">
+            <ul>
+                <li><a href="#home" class="smoothScroll">Home</a></li>
+                <li><a href="#welcome" class="smoothScroll">Welcome</a></li>
+                <li><a href="#gallery" class="smoothScroll">Photo Gallery</a></li>
+                <li><a href="#services" class="smoothScroll">Services & Prices</a></li>
+                    <li><a href="#contact-us" class="smoothScroll">Location & Contact Us</a></li>
+                    </ul>
+                    </div>
+                    
+                    <section id="home">
+                    <div class="home-title">
+                    SooLash Studio
+                    </div>
+                    </section>
+                    
+                    <section id="welcome">
+                    <div class="welcome-background">
+                    <div class="welcome-paragraph">
+                    <p>Welcome to SooLash Studio. Thank you for visiting. Please refer to different tabs for more information.<br />
+                    Appointments are required, so please contact us for making an appointment.
+                    </p>
+                    </div>
+                    </div>
+                    </section>
+                    
+                    <section id="gallery">
+                    <div class="gallery-background">
+                     <div class="gallery-title">
+                     Photo Gallery
+                     </div>
+                    
+                    <section id="slideshow">
+                    
+                    <div class="slideshow-container">
+                    <div class="mySlides fade">
+                    <img src="/image/Rating.jpg" style="width:100%">
+                    <div class="text">Rating</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                    <img src="/image/Demonstration_32.jpg" style="width:100%">
+                    <div class="text">Before and After</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                    <img src="/image/Demonstration_30.jpg" style="width:100%">
+                    <div class="text">Before and After</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                   </section>
+        
+        </div>
+        </section>
+        <br>
+        
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        </section>
+        
+        <section id="services">
+            <div class="services-background">
+                <div class="services-title">
+                    EyeLash Extension Prices
+                </div>
+                <div class="services-list-1">
+                    <table align="center">
+                        <tr align="left">
+                            <th>Silk & Mink Full Set &nbsp; &nbsp; &nbsp; &nbsp;</th>
+                            <th>$250</th>
+                            <th width=20px></th>
+                            <th>Luxury Real Mink Full Set &nbsp; &nbsp; &nbsp; &nbsp;</th>
+                            <th>$350</th>
+                        </tr>
+                        <tr align="left">
+                            <td>1 Week Refill</td>
+                            <td>$35</td>
+                            <td></td>
+                            <td>1 Week Refill</td>
+                            <td>$55</td>
+                        </tr>
+                        <tr align="left">
+                            <td>2 Week Refill</td>
+                            <td>$65</td>
+                            <td></td>
+                            <td>2 Week Refill</td>
+                            <td>$95</td>
+                        </tr>
+                        <tr align="left">
+                            <td>3 Week Refill</td>
+                            <td>$95</td>
+                            <td></td>
+                            <td>3 Week Refill</td>
+                            <td>$135</td>
+                        </tr>
+                        <tr align="left">
+                            <td>4 Week Refill</td>
+                            <td>$125</td>
+                            <td></td>
+                            <td>4 Week Refill</td>
+                            <td>$175</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="services-list-2">
+                    <table align="center">
+                        <tr align="left">
+                            <td>Lash Removal &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                            <td>$20 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                            <td>1 Week: Within 7 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                        </tr>
+                        <tr align="left">
+                            <td>4D Volume Lash</td>
+                            <td>$50</td>
+                            <td>2 Week: Within 14 Days</td>
+                        </tr>
+                        <tr align="left">
+                            <td>Coating Mascara</td>
+                            <td>$10</td>
+                            <td>3 Week: Within 21 Days</td>
+                        </tr>
+                        <tr align="left">
+                            <td></td>
+                            <td></td>
+                            <td>4 Week: Within 28 Days</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact-us">
+            <div class="contact-us-background">
+                <div class="contact-us-title">
+                    Location
+                </div>
+                <div class="contact-us-paragraph">
+                    <table align="center">
+                        <tr align="center">
+                            <th>Address:</th>
+                            <th>Hours of operation:</th>
+                            <th>Contact us:</th>
+                        </tr>
+                        <tr align="center">
+                            <td>7310 McWhorter Pl #D</td>
+                            <td>10AM - 7PM on Monday-Saturday</td>
+                            <td>Phone: 202-997-4494</td>
+                        </tr>
+                        <tr align="center">
+                            <td>Annandale, Virginia 22003 USA</td>
+                            <td>Closed on Sunday</td>
+                            <td>Email address: soolashstudio@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="contact-us-map">
+                    <div class="contact-us-map-title">
+                        Maps and Directions</div>
+                    <div id="map" style="width: 50%; height: 50%; position: absolute; margin-left: 25%;">
+                        <script>
+                            var map;
+                            function initMap() {
+                                map = new google.maps.Map(document.getElementById('map'), {
+                                                          center: {lat: 38.829087, lng: -77.198855},
+                                                          zoom: 20
+                                                          });
+                            }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE5el4WZDP4HD-qfUfotmVARjSQ01KXQo&callback=initMap"
+                            async defer></script>
+                    </div>
+                </div>
+                </section>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="smoothscroll.js"></script>
+        <script type="text/javascript" src="slider.js"></script>
+    </body>
 </html>
