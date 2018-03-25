@@ -21,7 +21,7 @@ telephone: 202-997-4494
 copyright:
 
 # API settings
-google_api_key: AIzaSyBE5el4WZDP4HD-qfUfotmVARjSQ01KXQo
+google_api_key: AIzaSyBE5el4WZDP4HD_qfUfotmVARjSQ01KXQo
 
 # Build settings
 markdown: kramdown
